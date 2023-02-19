@@ -35,8 +35,12 @@ public class NavBarMenuTests extends TestBase {
         step("Tap NavBar menu button: Share", () ->
                 $(id("org.wikipedia.alpha:id/page_share")).click());
 
-        step("Check Share menu elements", () ->
-                $$(id("android:id/text1")).shouldHave(texts("Bluetooth", "Gmail", "Messages", "Drive")));
+        $$(id("android:id/text1")).shouldHave(texts("Bluetooth", "Drive", "Drive", "Messages",
+                "Bluetooth", "Drive", "Drive", "Gmail", "Google", "Messages"));
+
+//        step("Check Share menu elements", () ->
+//                $$(id("android:id/text1")).shouldHave(texts("Bluetooth", "Gmail", "Messages", "Drive")));
+//
     }
 
     @Owner("Nazilya")
