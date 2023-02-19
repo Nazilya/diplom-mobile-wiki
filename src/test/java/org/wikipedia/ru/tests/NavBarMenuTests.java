@@ -37,7 +37,7 @@ public class NavBarMenuTests extends TestBase {
 
         $$(id("android:id/text1")).shouldHave(texts("Nearby Share", "Android Beam",
                 "Bluetooth", "Copy to clipboard", "Gmail", "Messages",
-                "News Feed", "Save to Drive"));
+                "News Feed", "Save to Drive", "Your groups"));
 
 //        step("Check Share menu elements", () ->
 //                $$(id("android:id/text1")).shouldHave(texts("Bluetooth", "Gmail", "Messages", "Drive")));
@@ -70,7 +70,7 @@ public class NavBarMenuTests extends TestBase {
 
         step("Check list Item elements of submenu", () ->
                 $$(id("org.wikipedia.alpha:id/listItem")).shouldHave(texts("Save", "Language", "Find in article", "Theme", "Contents",
-                        "Share", "Watch", "Talk page", "Edit history", "New tab", "Explore")));
+                        "Share", "Watch", "Talk page", "Edit history", "New tab")));
         //Categories, Edit article
     }
     @Owner("Nazilya")
