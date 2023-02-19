@@ -37,7 +37,7 @@ public class NavBarMenuTests extends TestBase {
 
         $$(id("android:id/text1")).shouldHave(texts("Nearby Share", "Android Beam",
                 "Bluetooth", "Copy to clipboard", "Gmail", "Messages",
-                "News Feed", "Save to Drive", "Your groups"));
+                "News Feed", "Save to Drive", "Your groups", "Your groups"));
 
 //        step("Check Share menu elements", () ->
 //                $$(id("android:id/text1")).shouldHave(texts("Bluetooth", "Gmail", "Messages", "Drive")));
