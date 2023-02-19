@@ -12,6 +12,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static io.appium.java_client.AppiumBy.accessibilityId;
 import static io.qameta.allure.Allure.step;
 import static org.openqa.selenium.By.id;
+
 public class NavBarMenuTests extends TestBase {
     @BeforeEach
     void clickMoreOptionsForOpenNavBarMenu() {
