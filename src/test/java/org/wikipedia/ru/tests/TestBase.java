@@ -43,7 +43,7 @@ public class TestBase {
     @AfterEach
     public void tearDown() {
         String sessionId = getSessionId();
-        Attach.screenshotAs("Last screenshot");
+//        Attach.screenshotAs("Last screenshot");
         Attach.pageSource();
         closeWebDriver();
         switch (deviceHost) {

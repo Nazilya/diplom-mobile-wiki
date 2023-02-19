@@ -65,7 +65,7 @@ public class NavBarMenuTests extends TestBase {
 
         step("Check list Item elements of submenu", () ->
                 $$(id("org.wikipedia.alpha:id/listItem")).shouldHave(texts("Save", "Language", "Find in article", "Theme", "Contents",
-                        "Share", "Watch", "Talk page", "Edit history", "New tab", "Explore", "Categories","Edit article")));
+                        "Share", "Watch", "Talk page", "Edit history", "New tab", "Explore")));
     }
     @Owner("Nazilya")
     @Tag("mobile")
@@ -107,4 +107,5 @@ public class NavBarMenuTests extends TestBase {
         step("Check Edit History pages Title", () ->
                 $(id("org.wikipedia.alpha:id/articleTitleView")).should(text("Revision history: BrowserStack")));  //Talk: BrowserStack
     }
+
 }
