@@ -48,5 +48,3 @@
   <code><img width="5%" title="Edit History" src="./images/menu/EditHistory.png"></code>
   <code><img width="5%" title="New Tab" src="./images/menu/NewTab.png"></code>  
 </p>
-
-
