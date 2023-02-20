@@ -111,10 +111,10 @@
 <img title="Allure Overview Dashboard" src="images/screens/mobile-telegram.png" >
 </p>
 
-### <img src="images/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Видео прохождения тестов
+### <img src="images/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Пример видео прохождения теста в Browserstack
 
 <p align="center">
-<img title="Emulator Video" src="images/video/video-emul-categ.gif" alt="video1"> <img title="Browserstack Video" src="images/video/video-br-share.gif"alt="video2">
+<img title="Browserstack Video" src="images/video/video-br-share.gif"alt="video2">
 </p>
 
 [Вернуться к оглавлению ⬆](#Ссылка)
