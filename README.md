@@ -74,10 +74,6 @@
 </p>
 
 ## <img src="images/logo/Allure_TO.svg" width="25" height="25"  alt="Allure"/></a> Интеграция с <a target="_blank" href="https://allure.autotests.cloud/project/1893/dashboards">Allure TestOps</a>
-### Cписок всех тест кейсов
-<p align="center">
-<img title="Allure Graphics" src="images/screens/mobile-ATO-TK.png">
-</p>
 
 ### Dashboard с результатами тестирования
 <p align="center">
