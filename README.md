@@ -48,7 +48,7 @@
 ###  Настройка Jenkins и удаленный запуск в Browserstack:
 1. Открыть <a target="_blank" href="https://jenkins.autotests.cloud/job/C16-NazilyaMullagildina_mobile-tests/">проект</a>
 
-![This is an image](/images/screens/mobile-Jenk-Sobrat-negat.png)
+![This is an image](/images/screens/mobile-Jenk-Sobrat-new.png)
 
 2. Выбрать пункт **Собрать с параметрами**
 3. В поля LOGIN и PASSWORD ввести BROWSERSTACK_USERNAME и BROWSERSTACK_ACCESS_KEY
