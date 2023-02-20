@@ -96,7 +96,7 @@
 <img title="Allure Graphics" src="images/screens/mobile-run2-TK.png">
 </p>
 
-### Формируется Launch, происходит автоматический запуск в Jenkins только отмеченных ТК
+### Формируется Launch, происходит автоматический запуск в Jenkins только отмеченных тест-кейсов
 <p align="center">
 <img title="Allure Graphics" src="images/screens/mobile-run2-launch.png">
 </p>
