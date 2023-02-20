@@ -1,4 +1,4 @@
-## Учебный проект по автоматизации тестирования мобильного приложения Wikipedia
+## Учебный проект по автоматизации тестирования мобильного приложения
 <a name="Ссылка"></a>
 <p align="center">
 <img title="Wikipedia" src="images/screens/wiki-logo2.png">
@@ -51,7 +51,7 @@
 ![This is an image](/images/screens/mobile-Jenk-Sobrat-negat.png)
 
 2. Выбрать пункт **Собрать с параметрами**
-3. В поля LOGIN и PASSWORD ввести BROWSERSTACK_USERNAME и #BROWSERSTACK_ACCESS_KEY
+3. В поля LOGIN и PASSWORD ввести BROWSERSTACK_USERNAME и BROWSERSTACK_ACCESS_KEY
 4. Нажать **Собрать**
 5. Результат запуска сборки можно посмотреть в отчёте Allure
 
@@ -111,5 +111,10 @@
 <img title="Allure Overview Dashboard" src="images/screens/mobile-telegram.png" >
 </p>
 
+### <img src="images/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Видео прохождения тестов
+
+<p align="center">
+<img title="Emulator Video" src="images/video/video-emul-categ.gif" width="450" alt="video"> <img title="Browserstack Video" src="images/video/video-br-share.gif" width="450" alt="video">
+</p>
 
 [Вернуться к оглавлению ⬆](#Ссылка)
