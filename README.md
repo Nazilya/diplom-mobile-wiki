@@ -4,7 +4,7 @@
 <img title="Wikipedia" src="images/screens/wiki-logo2.png">
 </p>
 
-## <a name="Содержание">Содержание</a>
+## :maple_leaf: Содержание:
 
 - Технологии и инструменты
 - Список проверок, реализованных в тестах
@@ -15,7 +15,7 @@
 - Уведомление в Telegram о результатах прогона тестов
 - Видео пример прохождения тестов
 
-## Технологии и инструменты
+## :maple_leaf: Технологии и инструменты
 
 <p align="center">
 <a href="https://www.jetbrains.com/idea/"><img src="images/logo/Idea.svg" width="50" height="50"  alt="IDEA"/></a>
@@ -34,12 +34,12 @@
 <a href="https://www.atlassian.com/ru/software/jira"><img src="images/logo/jira-logo.svg" width="50" height="50"  alt="Atlassian Jira"/></a>
 </p>
 
-## Список проверок, реализованных в автотестах
+## :maple_leaf: Список проверок, реализованных в автотестах
 
 - [x] Проверка элементов навигационного меню
 
 
-## Запуск тестов
+## :maple_leaf: Запуск тестов
 
 ###  Локальный запуск на эмуляторе:
 1. Запуск с командной строки: gradle clean test -DdeviceHost=mobile
@@ -111,8 +111,7 @@
 <img title="Allure Overview Dashboard" src="images/screens/mobile-telegram.png" >
 </p>
 
-### <img src="images/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Пример видео прохождения теста в Browserstack
-
+## <img src="images/logo/browserstack.svg" width="25" height="25"  alt="Browserstack"/></a> Пример видео прохождения теста в Browserstack
 <p align="center">
 <img title="Browserstack Video" src="images/video/video-br-share.gif"alt="video2">
 </p>
