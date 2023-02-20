@@ -86,7 +86,7 @@
 
 ### Пример отчёта выполнения одного из автотестов
 <p align="center">
-<img title="Allure Graphics" src="images/screens/mobile-ATO-TK-tree.png">
+<img title="Allure Graphics" src="images/screens/mobile-ATO-TK-sample.png">
 </p>
 
 
