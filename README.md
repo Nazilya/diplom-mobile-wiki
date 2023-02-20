@@ -38,15 +38,13 @@
 ## :maple_leaf: Список проверок, реализованных в автотестах
 
 - [x] Проверка элементов навигационного меню
-<p align="center">
-<img src="images/menu/Share.png" width="50" height="50"  alt="Share"/></a>
-<img src="images/menu/TalkPage.png" width="50" height="50"  alt="Talk Page"/></a>
-<img src="images/menu/EditHistory.png" width="50" height="50"  alt="Edit History"/></a>
-<img src="images/menu/NewTab.png" width="50" height="50"  alt="New Tab"/></a>
-<img src="images/menu/Explore.png" width="50" height="50"  alt="Explore"/></a>
-<img src="images/menu/Categories.png" width="50" height="50"  alt="Categories"/></a>
-<img src="images/menu/EditArticke.png" width="50" height="50"  alt="Edit Articke"/></a>
-<img src="images/menu/CastomizeToolbar.png" width="50" height="50"  alt="Castomize Toolbar"/></a>
+<p  align="center">
+  <code><img width="5%" title="Share" src="./images/menu/Share.png"></code>
+  <code><img width="5%" title="Talk Page" src="./images/menu/TalkPage.png"></code>
+  <code><img width="5%" title="Edit History" src="./images/menu/EditHistory.png"></code>
+  <code><img width="5%" title="New Tab" src="./images/menu/NewTab.png"></code>
+  <code><img width="5%" title="Share" src="./images/menu/Share.png"></code>
+  <code><img width="5%" title="Talk Page" src="./images/menu/TalkPage.png"></code>
+  <code><img width="5%" title="Edit History" src="./images/menu/EditHistory.png"></code>
+  <code><img width="5%" title="New Tab" src="./images/menu/NewTab.png"></code>  
 </p>
-
-
