@@ -16,7 +16,7 @@
 - Уведомление в Telegram о результатах прогона тестов
 - Видео пример прохождения тестов
 
-## :maple_leaf:Технологии и инструменты
+## Технологии и инструменты
 
 <p align="center">
 <a href="https://www.jetbrains.com/idea/"><img src="images/logo/Idea.svg" width="50" height="50"  alt="IDEA"/></a>
@@ -35,12 +35,12 @@
 <a href="https://www.atlassian.com/ru/software/jira"><img src="images/logo/jira-logo.svg" width="50" height="50"  alt="Atlassian Jira"/></a>
 </p>
 
-## :maple_leaf: Список проверок, реализованных в автотестах
+## Список проверок, реализованных в автотестах
 
 - [x] Проверка элементов навигационного меню
 
 
-## :maple_leaf: Запуск тестов
+## Запуск тестов
 
 ###  Локальный запуск на эмуляторе:
 1. Запуск с командной строки: gradle clean test -DdeviceHost=mobile
