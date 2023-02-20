@@ -42,9 +42,73 @@
 
 ## :maple_leaf: Запуск тестов
 
-###  Локальный запуск :
-1. Запуск с командной строки: gradle clean test
+###  Локальный запуск на эмуляторе:
+1. Запуск с командной строки: gradle clean test -DdeviceHost=mobile
 2. Получение отчёта: gradle allureServe
 
-###  Удаленный запуск (в Jenkins):
+###  Настройка Jenkins и удаленный запуск в Browserstack:
+1. Открыть <a target="_blank" href="https://jenkins.autotests.cloud/job/C16-NazilyaMullagildina_mobile-tests/">проект</a>
+
+![This is an image](/images/screens/mobile-Jenk-Sobrat-negat.png)
+
+2. Выбрать пункт **Собрать с параметрами**
+3. В поля LOGIN и PASSWORD ввести BROWSERSTACK_USERNAME и #BROWSERSTACK_ACCESS_KEY
+4. Нажать **Собрать**
+5. Результат запуска сборки можно посмотреть в отчёте Allure
+
+## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/C16-NazilyaMullagildina_mobile-tests/10/allure/">Allure report</a>
+
+###  Главное окно
+<p align="center">
+<img title="Allure Overview Dashboard" src="images/screens/mobile-allure-main.png">
+</p>
+
+
+###  Тесты
+<p align="center">
+<img title="Allure Tests" src="images/screens/mobile-allure-suites.png">
+</p>
+
+###  Графики
+<p align="center">
+<img title="Allure Graphics" src="images/screens/mobile-allure-graph.png">
+</p>
+
+## <img src="images/logo/Allure_TO.svg" width="25" height="25"  alt="Allure"/></a> Интеграция с <a target="_blank" href="https://allure.autotests.cloud/project/1893/dashboards">Allure TestOps</a>
+### Cписок всех тест кейсов
+<p align="center">
+<img title="Allure Graphics" src="images/screens/mobile-ATO-TK.png">
+</p>
+
+### Dashboard с результатами тестирования
+<p align="center">
+<img title="Allure Graphics" src="images/screens/mobile-ATO-main-dashb.png">
+</p>
+
+### Пример отчёта выполнения одного из автотестов
+<p align="center">
+<img title="Allure Graphics" src="images/screens/mobile-ATO-TK-tree.png">
+</p>
+
+
+### Настроен запуск из Allure TestOps выборочных тест-кейсов
+<p align="center">
+<img title="Allure Graphics" src="images/screens/mobile-run2-TK.png">
+</p>
+
+### Формируется Launch, происходит автоматический запуск в Jenkins только отмеченных ТК
+<p align="center">
+<img title="Allure Graphics" src="images/screens/mobile-run2-launch.png">
+</p>
+
+## <img src="images/logo/jira-logo.svg" width="25" height="25"  alt="Allure"/></a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-541">Atlassian Jira</a>
+<p align="center">
+<img title="Jira" src="images/screens/mobile-Jira.png">
+</p>
+
+## <img src="images/logo/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram о результатах прогона тестов
+
+<p align="center">
+<img title="Allure Overview Dashboard" src="images/screens/mobile-telegram.png" >
+</p>
 
