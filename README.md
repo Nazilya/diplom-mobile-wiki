@@ -114,7 +114,7 @@
 ### <img src="images/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Видео прохождения тестов
 
 <p align="center">
-<img title="Emulator Video" src="images/video/video-emul-categ.gif" width="450" alt="video"> <img title="Browserstack Video" src="images/video/video-br-share.gif" width="450" alt="video">
+<img title="Emulator Video" src="images/video/video-emul-categ.gif" width="350" height="250" alt="video"> <img title="Browserstack Video" src="images/video/video-br-share.gif" width="350"  height="250" alt="video">
 </p>
 
 [Вернуться к оглавлению ⬆](#Ссылка)
