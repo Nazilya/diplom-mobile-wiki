@@ -1,7 +1,7 @@
 ## Учебный проект по автоматизации тестирования мобильного приложения Wikipedia
 
 <p align="center">
-<img title="Работа в Сбере" src="images/screens/wiki-logo.jpeg">
+<img title="Wikipedia" src="images/screens/wiki-logo3.jpeg">
 </p>
 
 
