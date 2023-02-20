@@ -38,13 +38,13 @@
 ## :maple_leaf: Список проверок, реализованных в автотестах
 
 - [x] Проверка элементов навигационного меню
-<p  align="center">
-  <code><img width="5%" title="Share" src="./images/menu/Share.png"></code>
-  <code><img width="5%" title="Talk Page" src="./images/menu/TalkPage.png"></code>
-  <code><img width="5%" title="Edit History" src="./images/menu/EditHistory.png"></code>
-  <code><img width="5%" title="New Tab" src="./images/menu/NewTab.png"></code>
-  <code><img width="5%" title="Explore" src="./images/menu/Explore.png"></code>
-  <code><img width="5%" title="Categories" src="./images/menu/Categories.png"></code>
-  <code><img width="5%" title="Edit Article" src="./images/menu/EditArticke.png"></code>
-  <code><img width="5%" title="CastomizeToolbar" src="./images/menu/Castomize Toolbar.png"></code>  
-</p>
+
+
+## :maple_leaf: Запуск тестов
+
+###  Локальный запуск :
+1. Запуск с командной строки: gradle clean test
+2. Получение отчёта: gradle allureServe
+
+###  Удаленный запуск (в Jenkins):
+
