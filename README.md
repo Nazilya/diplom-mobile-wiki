@@ -1,9 +1,8 @@
 ## Учебный проект по автоматизации тестирования мобильного приложения Wikipedia
-
+<a name="Ссылка"></a>
 <p align="center">
 <img title="Wikipedia" src="images/screens/wiki-logo2.png">
 </p>
-
 
 ## <a name="Содержание">Содержание</a>
 
@@ -112,4 +111,5 @@
 <img title="Allure Overview Dashboard" src="images/screens/mobile-telegram.png" >
 </p>
 
-[Вернуться к оглавлению ⬆](#Содержание)
+
+[Вернуться к оглавлению ⬆](#Ссылка)
