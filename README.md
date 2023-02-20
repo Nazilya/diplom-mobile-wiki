@@ -1,4 +1,4 @@
-## Учебный проект по автоматизации тестирования мобильного приложения
+## Учебный проект по автоматизации тестирования (mobile)
 <a name="Ссылка"></a>
 <p align="center">
 <img title="Wikipedia" src="images/screens/wiki-logo2.png">
