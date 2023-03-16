@@ -14,12 +14,9 @@ import static com.codeborne.selenide.Selenide.open;
 import static org.wikipedia.ru.helpers.Attach.getSessionId;
 
 public class TestBase {
-    public static String deviceHost = System.getProperty("deviceHost");
+    public static String deviceHost = System.getProperty("deviceHost", "mobile");
     @BeforeAll
     static void beforeAll() {
-        if (deviceHost == null) {
-            deviceHost = "mobile";
-        }
 
         switch (deviceHost) {
             case "browserstack":
@@ -28,6 +25,7 @@ public class TestBase {
             case "mobile":
                 Configuration.browser = MobileDriver.class.getName();
                 break;
+            default: throw new RuntimeException("deviceHost " + deviceHost + " не поддерживается");
         }
         Configuration.timeout = 15000;
         Configuration.pageLoadTimeout = 15000;
@@ -43,13 +41,11 @@ public class TestBase {
     @AfterEach
     public void tearDown() {
         String sessionId = getSessionId();
-//        Attach.screenshotAs("Last screenshot");
         Attach.pageSource();
         closeWebDriver();
-        switch (deviceHost) {
-            case "browserstack":
-                Attach.video(sessionId);
-                break;
+
+        if (deviceHost.equals("browserstack")) {
+            Attach.video(sessionId);
         }
     }
 }
